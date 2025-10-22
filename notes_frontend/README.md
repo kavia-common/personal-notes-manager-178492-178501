@@ -1,75 +1,23 @@
-# Nuxt Minimal Starter
+# Personal Notes (Nuxt 3)
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+An offline-first notes UI with a modern "Ocean Professional" theme.
 
-## Setup
+- Create, edit, delete notes
+- LocalStorage persistence
+- Accessible controls and responsive layout (sidebar + editor)
 
-Make sure to install dependencies:
+## Quick Start
+
+Install and run:
 
 ```bash
-# npm
+# install
 npm install
 
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
+# dev
 npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
 ```
 
-## Production
+Open http://localhost:3000
 
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+No backend or env vars required. Data is stored locally in your browser.
